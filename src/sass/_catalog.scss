@@ -13,10 +13,12 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 50px;
-
     column-gap: 24px;
     row-gap: 64px;
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
     padding-left: 5%
 }
 
@@ -166,7 +168,7 @@ h2 {
     background-color: white;
     width: 20px;
     height: 20px;
-    color: blue;
+    color: var(--black);
     display: block;
     margin-left: auto;
     margin-right: 10px;
