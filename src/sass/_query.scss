@@ -1,0 +1,691 @@
+// PC Media Query 
+@media (min-width: 1158px) {
+
+    .modal-close-btn {
+        border-radius: 100%;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        margin-left: auto;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+}
+
+// Tablet Media Querries 
+@media (min-width: 768px) and (max-width: 1157px) {
+
+    // start of header
+    .header,
+    .hero-section {
+        width: 100%;
+    }
+
+    .header-logo {
+        padding-top: 20px;
+        margin: 0 32px 0;
+    }
+
+    .logo-container {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.45px;
+    }
+
+    .hero-container {
+        width: 100%;
+        padding: 0;
+        margin: 0 36px;
+    }
+
+    .hero-disc h1 {
+        width: 653px;
+        padding: 0;
+    }
+
+    .hero-disc p {
+        position: absolute;
+        top: 470;
+        left: 488;
+        // right: -30;
+    }
+
+    .swiper-buttons {
+        transform: translateY(-70%);
+    }
+
+    .slider-container {
+        position: relative;
+    }
+
+    .swiper-pagination {
+        padding: 35px;
+    }
+
+    .swiper-pagination-custom {
+        left: 275px;
+    }
+
+    // end of header
+
+    // about 
+    //ABOUT//
+    .about-container{
+        margin: 64px 32px 633px 32px;
+        gap:40px; 
+        position: relative;
+    }
+    .about-text{
+        width:100%;
+    }
+    .about-text.two{
+        width:100%;
+    }
+    .about-disc{
+        gap:20px;
+    }
+    .about-image{
+        width: 100%;
+        height: 465px;
+        flex-shrink: 0; 
+        margin-right: 32px;
+        position: absolute;
+        top:198;
+        left:0;
+    }
+    // about
+
+    // catalog
+
+    .catalog-image-item-1 {
+        display: none;
+    }
+
+    .catalog-button {
+        margin-left: 77%;
+    }
+
+    .catalog-watch-name-1 {
+        margin-right: 2px;
+    }
+
+    .catalog-backdrop {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 60px;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal {
+        width: 744px;
+        height: 670px;
+        background-color: white;
+        position: absolute;
+        border-radius: 4px;
+        margin-top: 10px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .modal-close-btn {
+        border-radius: 100%;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        margin-left: auto;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+
+    // .modal-close-btn-1 {
+    //     display: none;
+    // }
+
+    .watch-break {
+        margin-bottom: 50%;
+        margin-right: 20px;
+        color: #14141480;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .modal-heart {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .modal img {
+        margin-top: 0px;
+    }
+
+    .service-input {
+        box-sizing: border-box;
+        width: 350px;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 8px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+
+    .text {
+        box-sizing: border-box;
+        width: 350px;
+        height: 200px;
+    }
+
+    .catalog-last-button {
+        box-sizing: border-box;
+        width: 350px;
+        height: 40px;
+    }
+
+    .catalog-policy {
+        font-size: 11px;
+    }
+
+    .watch-break {
+        padding-bottom: 45%;
+    }
+
+    // block section / watches
+    .watches-section {
+        margin: 0 32px 0 32px;
+        padding: 0;
+    }
+    .watches-container {
+        margin: 0;
+        width: 100%;
+        padding: 0
+    }
+    .watch-img img {
+        width: 100%;
+    }
+    // block section / watches
+
+    // sale section
+    .sale-container {
+        margin: 0 32px 0 32px;
+        padding: 0;
+    }
+    .sale-img-list {
+        flex-direction: column;
+    }
+    // sale section
+
+    // footer section
+    .section-footer {
+        margin: 0 32px 0 32px;
+    }
+    .footer-privacy {
+        margin: 0 32px 0 32px;
+    }
+    // footer section
+}
+
+// Mobile Media Querries
+@media (min-width:375px) and (max-width: 767px) {
+
+    // start of header query
+
+    // .container {
+    //     width: 375px;
+    // }
+
+    .nav-container,
+    .button,
+    .header-logo {
+        display: none;
+    }
+
+    .js-open-menu {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .mobile-header {
+        display: flex;
+        margin: 0;
+        padding: 30px 20px;
+        justify-content: space-between;
+    }
+
+    .mobile-logo-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-modal.is-open {
+        transform: translateX(0);
+    }
+
+    .mobile-modal {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 30px 20px;
+        position: fixed;
+        z-index: 2;
+        background-color: var(--dark-green);
+        transform: translateX(100%);
+        transition: transform 250ms ease-in-out;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .logo-container {
+        align-items: flex-start;
+    }
+
+    .icon-close-mobile {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        fill: var(--white);
+    }
+
+    .mobile-nav-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 14px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    // end of header query
+
+    // start of hero query
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 120px;
+        margin: 0;
+        position: relative;
+    }
+
+    .hero-disc {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 282px;
+    }
+
+    .hero-disc li h1 {
+        font-size: 38px;
+        color: var(--white);
+        line-height: 1.05em;
+        letter-spacing: -1.52px;
+        width: 335px;
+        font-weight: 600;
+    }
+
+    .hero-disc li p {
+        color: var(--white);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.28em;
+        letter-spacing: -0.28px;
+        width: 248px;
+        margin-left: auto;
+    }
+
+    .hero-image {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image li {
+        display: inline-block;
+    }
+
+    .hero-slide {
+        display: inline-block;
+        text-align: left;
+        margin-right: auto;
+        position: absolute;
+        top: 185px;
+        width: 266px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+
+    .swiper {
+        display: flex;
+        margin: 0;
+        width: 266px;
+        height: 200px;
+        flex-shrink: 0;
+        z-index: 0;
+    }
+
+    .swiper-buttons {
+        transform: translateY(-70%);
+    }
+
+    .swiper-slide img {
+        width: 226px;
+        height: 190px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+
+    .slider-container {
+        position: relative;
+        z-index: 0;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: 410px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+
+    .swiper-pagination {
+        padding: 35px;
+    }
+
+    .swiper-pagination-custom {
+        left: 100px;
+
+    }
+
+    // end of hero query
+
+    // start of about query
+    .about-container {
+        margin: 0;
+        padding: 40px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-container li h2 {
+        width: 140px;
+        font-size: 32px;
+    }
+
+    .about-disc {
+        gap: 40px;
+    }
+
+    .about-disc-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-text p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 365px;
+    }
+
+    // end of about query
+
+    // start of catalog query
+    .catalog-section {
+        margin: 0;
+        padding: 40px 20px;
+    }
+
+    .catalog-section h2 {
+        margin: 0;
+        padding: 0 0 40px 0;
+        font-size: 32px;
+    }
+
+    .catalog-container {
+        justify-content: center;
+    }
+
+    .catalog-button {
+        margin: 0;
+        padding: 14px 28px;
+    }
+
+    // end of catalog query
+
+    // start of modal query
+    .catalog-backdrop {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        left: 1;
+        display: flex;
+        align-items: center;
+        padding: 4.5%;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal {
+        object-fit: cover;
+        top: 0;
+        width: auto;
+        height: auto;
+        background-color: white;
+        position: relative;
+        border-radius: 4px;
+        padding: 24px;
+        margin-top: 10px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        scroll-behavior: auto;
+    }
+
+    .modal img {
+        margin-top: 10px;
+    }
+
+    .catalog-image-item-1 {
+        display: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .watch-break {
+        margin-bottom: 10px;
+        color: #14141480;
+        padding-bottom: 5%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .modal-close-btn-1 {
+        position: absolute;
+        border-radius: 100%;
+        right: 0;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        display: flex;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+    
+
+    .service-input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 8px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+
+    .text {
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+    }
+
+    .catalog-last-button {
+        box-sizing: border-box;
+        width: 290px;
+        height: 40px;
+    }
+
+    .catalog-policy {
+        font-size: 12px;
+        padding-left: 12px;
+    }
+
+    // start of watches section query
+    .watches-section {
+        padding: 0;
+    }
+
+    .watches-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+        padding: 80px 20px;
+    }
+
+    .watch-title-list {
+        flex-wrap: wrap;
+    }
+
+    .watch-title-subhead p {
+        width: 100%;
+        flex-shrink: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        color: var(--black, #141414);
+        font-size: 32px;
+        line-height: 40px;
+        /* 125% */
+        letter-spacing: -0.64px;
+    }
+
+    .watches-image-list {
+        flex-direction: column;
+    }
+
+    .watch-img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .watch-img img {
+        width: 100%;
+        height: 260px;
+    }
+
+    // end of watches section query
+
+    // start of sale section
+    .sale-container {
+        margin: 80px 20px;
+    }
+
+    .sale-img-container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale-img-list {
+        
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sale-img-small {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sale-img-grid,
+    .sale-img-grid img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .sale-img-large,
+    .sale-img-large img {
+        width: 235px;
+        height: 350px;
+    }
+
+    .sale-disc-title h3 {
+        font-size: 24px;
+    }
+
+    // end of sale section
+
+    // start of footer query
+    .section-footer {
+        margin: 40px 20px;
+        position: relative;
+    }
+
+    .social-footer {
+        position: absolute;
+        top: 350px;
+        left: 0;
+    }
+
+    .footer-privacy {
+        margin: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        padding-bottom: 20px;
+    }
+
+    // end of footer query
+}

@@ -1,21 +1,44 @@
 .watches-section {
     padding: 80px 132px;
 }
-.block-title {
+
+.watches-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.watch-title-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.watch-title-head p {
     color: rgba(20, 20, 20, 0.40);
     font-size: 12px;
     font-weight: 300;
     line-height: 14px;
+    /* 116.667% */
     letter-spacing: 0.72px;
-    margin: 0;
 }
 
-.block-subtitle {
+.watch-title-subhead p {
+    width: 448px;
+    color: var(--dark-green);
     font-size: 40px;
     font-weight: 600;
     line-height: 44px;
+    /* 110% */
     letter-spacing: -0.8px;
-    margin-top: 8px;
-    margin-bottom: 80px
 }
 
+.watches-image-list {
+    display: flex;
+    gap: 24px;
+}
+
+.watch-img {
+    width: 576px;
+    height: 422px;
+}

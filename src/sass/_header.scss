@@ -7,25 +7,30 @@
   padding-top: 20px;
   height: 48px;
 }
+
 .nav-logo {
   display: flex;
   gap: 80px;
   align-items: center;
 
 }
+
 .logo-container {
   display: flex;
   align-items: center;
   gap: 4px;
 }
+
 a {
   text-decoration: none;
   color: var(--white);
 }
+
 .nav-list {
   display: flex;
   gap: 40px;
   text-transform: uppercase;
+  font-size: 9px;
 }
 
 .btn-tel {
@@ -39,6 +44,14 @@ a {
   text-transform: uppercase;
   background-color: var(--dark-green);
   border-style: none;
+  border-radius: 8px;
+}
+
+.mobile-header,
+.mobile-modal,
+.logo-modal,
+.mobile-nav-container {
+  display: none;
 }
 
 /* end of navigation style */

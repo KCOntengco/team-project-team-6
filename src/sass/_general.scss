@@ -4,26 +4,41 @@
     --black: #141414;
     --black-opacity: hsba(0, 0%, 8%, 0.5);
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Epilogue", sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-header, .hero-section {
+
+// .container {
+//     margin: 0 auto;
+// }
+
+header,
+.hero-section,
+.mobile-header {
     background-color: var(--black);
     color: var(--white);
 
 }
+
 .logo {
     fill: var(--white);
 }
+
 footer {
     background-color: var(--dark-green);
 }
+
 ul {
     list-style: none;
+}
+html {
+    scroll-behavior: smooth;
 }
